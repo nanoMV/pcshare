@@ -1,0 +1,194 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "PcClient"=..\PcClient\PcClient.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcCortr"=..\PcCortr\PcCortr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcFile"=..\PcFile\PcFile.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcFrame"=..\PcFrame\PcFrame.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcKeyMon"=..\PcKeyMon\PcKeyMon.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcMulit"=..\PcMulit\PcMulit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcProc"=..\PcProc\PcProc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcRegedit"=..\PcRegedit\PcRegedit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcService"=..\PcService\PcService.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcShare"=.\PcShare.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PcClient
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcCortr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcFile
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcFrame
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcKeyMon
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcMulit
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcProc
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcRegedit
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcService
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcStat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PcTlnt
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "PcStat"=..\PcStat\PcStat.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PcTlnt"=..\PcTlnt\PcTlnt.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PcFrame - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo".\Release/PcFrame.res" /d "NDEBUG" "E:\vc资料\PCSHARE VIP 2005源码chen\PcFrame\PcFrame.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/PcFrame.pch" /Yu"stdafx.h" /Fo".\Release/" /GF /c 
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcFrame\MyFrameView.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcFrame\MyFrameWnd.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcFrame\MyGlobalFuc.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcFrame\PcFrame.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP22.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/PcFrame.pch" /Yc"stdafx.h" /Fo".\Release/" /GF /c 
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcFrame\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP23.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zlib.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/PcFrame.pdb" /machine:IX86 /out:"..\Bin\PcFrame.exe" /pdbtype:sept 
+".\Release\MyFrameView.obj"
+".\Release\MyFrameWnd.obj"
+".\Release\MyGlobalFuc.obj"
+".\Release\PcFrame.obj"
+".\Release\StdAfx.obj"
+".\Release\PcFrame.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP24.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyFrameView.cpp
+MyFrameWnd.cpp
+MyGlobalFuc.cpp
+PcFrame.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PcFrame.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

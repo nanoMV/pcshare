@@ -1,0 +1,661 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PcClient - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP21A6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "PCCLIENT_EXPORTS" /FR"Release/" /Fp"Release/PcClient.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcClient\PcClient.cpp"
+"E:\Projects\PcShare\PcClient\SshWork.cpp"
+"E:\Projects\PcShare\PcClient\WjcDes.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP21A6.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP21A7.tmp" with contents
+[
+/nologo /MT /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "PCCLIENT_EXPORTS" /FR"Release/" /Fp"Release/PcClient.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcClient\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP21A7.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP21A8.tmp" with contents
+[
+wininet.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/PcClient.pdb" /machine:I386 /def:".\PcClient.def" /out:"../Bin/PcClient.dll" /implib:"Release/PcClient.lib" 
+.\Release\PcClient.obj
+.\Release\SshWork.obj
+.\Release\StdAfx.obj
+.\Release\WjcDes.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP21A8.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+PcClient.cpp
+SshWork.cpp
+WjcDes.cpp
+Generating Code...
+Linking...
+   Creating library Release/PcClient.lib and object Release/PcClient.exp
+LINK : warning LNK4089: all references to "AVICAP32.dll" discarded by /OPT:REF
+<h3>
+--------------------Configuration: PcCortr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcCortr.res" /d "NDEBUG" /d "_AFXDLL" "E:\Projects\PcShare\PcCortr\PcCortr.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3529.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/PcCortr.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcCortr\MyAdminTrans.cpp"
+"E:\Projects\PcShare\PcCortr\MyFrameTrans.cpp"
+"E:\Projects\PcShare\PcCortr\MyHttpBase.cpp"
+"E:\Projects\PcShare\PcCortr\MyHttpPipeBase.cpp"
+"E:\Projects\PcShare\PcCortr\MyKeyMonTrans.cpp"
+"E:\Projects\PcShare\PcCortr\MyMainTrans.cpp"
+"E:\Projects\PcShare\PcCortr\MyMulitTrans.cpp"
+"E:\Projects\PcShare\PcCortr\MyTlntTrans.cpp"
+"E:\Projects\PcShare\PcCortr\PcCortr.cpp"
+"E:\Projects\PcShare\PcCortr\XGina.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3529.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP352A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/PcCortr.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcCortr\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP352A.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP352B.tmp" with contents
+[
+Wininet.lib shlwapi.lib ZLIB.LIB Ws2_32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/PcCortr.pdb" /machine:I386 /def:".\PcCortr.def" /out:"../Bin/PcCortr.dll" /implib:"Release/PcCortr.lib" 
+.\Release\MyAdminTrans.obj
+.\Release\MyFrameTrans.obj
+.\Release\MyHttpBase.obj
+.\Release\MyHttpPipeBase.obj
+.\Release\MyKeyMonTrans.obj
+.\Release\MyMainTrans.obj
+.\Release\MyMulitTrans.obj
+.\Release\MyTlntTrans.obj
+.\Release\PcCortr.obj
+.\Release\StdAfx.obj
+.\Release\XGina.obj
+.\Release\PcCortr.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP352B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyAdminTrans.cpp
+MyFrameTrans.cpp
+MyHttpBase.cpp
+MyHttpPipeBase.cpp
+MyKeyMonTrans.cpp
+MyMainTrans.cpp
+MyMulitTrans.cpp
+MyTlntTrans.cpp
+PcCortr.cpp
+XGina.cpp
+Generating Code...
+Linking...
+   Creating library Release/PcCortr.lib and object Release/PcCortr.exp
+<h3>
+--------------------Configuration: PcFile - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo".\Release/PcFile.res" /d "NDEBUG" "E:\Projects\PcShare\PcFile\PcFile.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5643.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/PcFile.pch" /Yu"stdafx.h" /Fo".\Release/" /GF /c 
+"E:\Projects\PcShare\PcFile\DirDialog.cpp"
+"E:\Projects\PcShare\PcFile\ManaFrame.cpp"
+"E:\Projects\PcShare\PcFile\MyDirInfoDlg.cpp"
+"E:\Projects\PcShare\PcFile\MyDirListView.cpp"
+"E:\Projects\PcShare\PcFile\MyDirTreeView.cpp"
+"E:\Projects\PcShare\PcFile\mydirview.cpp"
+"E:\Projects\PcShare\PcFile\MyDiskInfo.cpp"
+"E:\Projects\PcShare\PcFile\MyFileInfo.cpp"
+"E:\Projects\PcShare\PcFile\MyFileTransDlg.cpp"
+"E:\Projects\PcShare\PcFile\MyFileTransView.cpp"
+"E:\Projects\PcShare\PcFile\MyFindFileDlg.cpp"
+"E:\Projects\PcShare\PcFile\MyGlobalFuc.cpp"
+"E:\Projects\PcShare\PcFile\MyRenameDlg.cpp"
+"E:\Projects\PcShare\PcFile\MyTrace.cpp"
+"E:\Projects\PcShare\PcFile\NewMenu.cpp"
+"E:\Projects\PcShare\PcFile\PcFile.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5643.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5644.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/PcFile.pch" /Yc"stdafx.h" /Fo".\Release/" /GF /c 
+"E:\Projects\PcShare\PcFile\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5644.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5645.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zlib.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/PcFile.pdb" /machine:IX86 /out:"../Bin\PcFile.exe" /pdbtype:sept 
+.\Release\DirDialog.obj
+.\Release\ManaFrame.obj
+.\Release\MyDirInfoDlg.obj
+.\Release\MyDirListView.obj
+.\Release\MyDirTreeView.obj
+.\Release\mydirview.obj
+.\Release\MyDiskInfo.obj
+.\Release\MyFileInfo.obj
+.\Release\MyFileTransDlg.obj
+.\Release\MyFileTransView.obj
+.\Release\MyFindFileDlg.obj
+.\Release\MyGlobalFuc.obj
+.\Release\MyRenameDlg.obj
+.\Release\MyTrace.obj
+.\Release\NewMenu.obj
+.\Release\PcFile.obj
+.\Release\StdAfx.obj
+.\Release\PcFile.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5645.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DirDialog.cpp
+ManaFrame.cpp
+MyDirInfoDlg.cpp
+MyDirListView.cpp
+MyDirTreeView.cpp
+mydirview.cpp
+MyDiskInfo.cpp
+MyFileInfo.cpp
+MyFileTransDlg.cpp
+MyFileTransView.cpp
+MyFindFileDlg.cpp
+MyGlobalFuc.cpp
+MyRenameDlg.cpp
+MyTrace.cpp
+NewMenu.cpp
+PcFile.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcFrame - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo".\Release/PcFrame.res" /d "NDEBUG" "E:\Projects\PcShare\PcFrame\PcFrame.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6708.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/PcFrame.pch" /Yu"stdafx.h" /Fo".\Release/" /GF /c 
+"E:\Projects\PcShare\PcFrame\MyFrameView.cpp"
+"E:\Projects\PcShare\PcFrame\MyFrameWnd.cpp"
+"E:\Projects\PcShare\PcFrame\MyGlobalFuc.cpp"
+"E:\Projects\PcShare\PcFrame\PcFrame.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6708.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6709.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/PcFrame.pch" /Yc"stdafx.h" /Fo".\Release/" /GF /c 
+"E:\Projects\PcShare\PcFrame\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6709.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP670A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zlib.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/PcFrame.pdb" /machine:IX86 /out:"..\Bin\PcFrame.exe" /pdbtype:sept 
+.\Release\MyFrameView.obj
+.\Release\MyFrameWnd.obj
+.\Release\MyGlobalFuc.obj
+.\Release\PcFrame.obj
+.\Release\StdAfx.obj
+.\Release\PcFrame.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP670A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyFrameView.cpp
+MyFrameWnd.cpp
+MyGlobalFuc.cpp
+PcFrame.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcKeyMon - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcKeyMon.res" /i ".\Release" /d "NDEBUG" "E:\Projects\PcShare\PcKeyMon\PcKeyMon.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6C1A.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcKeyMon.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"E:\Projects\PcShare\PcKeyMon\MainFrm.cpp"
+"E:\Projects\PcShare\PcKeyMon\MyEditView.cpp"
+"E:\Projects\PcShare\PcKeyMon\MyGlobalFuc.cpp"
+"E:\Projects\PcShare\PcKeyMon\PcKeyMon.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6C1A.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6C1B.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcKeyMon.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"E:\Projects\PcShare\PcKeyMon\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6C1B.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6C1C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PcKeyMon.pdb" /machine:IX86 /out:"..\bin\PcKeyMon.exe" /pdbtype:sept /opt:ref /opt:icf 
+.\Release\MainFrm.obj
+.\Release\MyEditView.obj
+.\Release\MyGlobalFuc.obj
+.\Release\PcKeyMon.obj
+.\Release\stdafx.obj
+.\Release\PcKeyMon.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6C1C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+MainFrm.cpp
+MyEditView.cpp
+MyGlobalFuc.cpp
+PcKeyMon.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcMulit - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcMulit.res" /d "NDEBUG" /d "_AFXDLL" "E:\Projects\PcShare\PcMulit\PcMulit.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP71A9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcMulit.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcMulit\MyFrame.cpp"
+"E:\Projects\PcShare\PcMulit\MyGlobalFuc.cpp"
+"E:\Projects\PcShare\PcMulit\PcMulit.cpp"
+"E:\Projects\PcShare\PcMulit\PcMulitDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP71A9.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP71AA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcMulit.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcMulit\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP71AA.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP71AB.tmp" with contents
+[
+Ws2_32.lib zlib.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PcMulit.pdb" /machine:I386 /out:"..\bin/PcMulit.exe" 
+.\Release\MyFrame.obj
+.\Release\MyGlobalFuc.obj
+.\Release\PcMulit.obj
+.\Release\PcMulitDlg.obj
+.\Release\StdAfx.obj
+.\Release\PcMulit.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP71AB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyFrame.cpp
+MyGlobalFuc.cpp
+PcMulit.cpp
+PcMulitDlg.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcProc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcProc.res" /i ".\Release" /d "NDEBUG" "E:\Projects\PcShare\PcProc\PcProc.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7747.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcProc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"E:\Projects\PcShare\PcProc\MainFrm.cpp"
+"E:\Projects\PcShare\PcProc\MyGlobalFuc.cpp"
+"E:\Projects\PcShare\PcProc\MyProcessListView.cpp"
+"E:\Projects\PcShare\PcProc\PcProc.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7747.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7748.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcProc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"E:\Projects\PcShare\PcProc\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7748.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7749.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zlib.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PcProc.pdb" /machine:IX86 /out:"..\bin\PcProc.exe" /pdbtype:sept /opt:ref /opt:icf 
+.\Release\MainFrm.obj
+.\Release\MyGlobalFuc.obj
+.\Release\MyProcessListView.obj
+.\Release\PcProc.obj
+.\Release\stdafx.obj
+.\Release\PcProc.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7749.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+MainFrm.cpp
+MyGlobalFuc.cpp
+MyProcessListView.cpp
+PcProc.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcRegedit - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcRegedit.res" /i ".\Release" /d "NDEBUG" "E:\Projects\PcShare\PcRegedit\PcRegedit.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D33.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcRegedit.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"E:\Projects\PcShare\PcRegedit\MainFrm.cpp"
+"E:\Projects\PcShare\PcRegedit\MyGlobalFuc.cpp"
+"E:\Projects\PcShare\PcRegedit\myregeditvalue.cpp"
+"E:\Projects\PcShare\PcRegedit\MyRegListCtrl.cpp"
+"E:\Projects\PcShare\PcRegedit\MyRegTreeCtrl.cpp"
+"E:\Projects\PcShare\PcRegedit\MyRenameDlg.cpp"
+"E:\Projects\PcShare\PcRegedit\PcRegedit.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D33.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D34.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcRegedit.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"E:\Projects\PcShare\PcRegedit\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D34.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D35.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zlib.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PcRegedit.pdb" /machine:IX86 /out:"..\bin\PcRegedit.exe" /pdbtype:sept /opt:ref /opt:icf 
+.\Release\MainFrm.obj
+.\Release\MyGlobalFuc.obj
+.\Release\myregeditvalue.obj
+.\Release\MyRegListCtrl.obj
+.\Release\MyRegTreeCtrl.obj
+.\Release\MyRenameDlg.obj
+.\Release\PcRegedit.obj
+.\Release\stdafx.obj
+.\Release\PcRegedit.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D35.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+MainFrm.cpp
+MyGlobalFuc.cpp
+myregeditvalue.cpp
+MyRegListCtrl.cpp
+MyRegTreeCtrl.cpp
+MyRenameDlg.cpp
+PcRegedit.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcService - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcService.res" /i ".\Release" /d "NDEBUG" "E:\Projects\PcShare\PcService\PcService.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8551.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcService.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"E:\Projects\PcShare\PcService\MainFrm.cpp"
+"E:\Projects\PcShare\PcService\MyGlobalFuc.cpp"
+"E:\Projects\PcShare\PcService\MyServicesDlg.cpp"
+"E:\Projects\PcShare\PcService\MyServicesView.cpp"
+"E:\Projects\PcShare\PcService\PcService.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8551.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8552.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PcService.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"E:\Projects\PcShare\PcService\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8552.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8553.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zlib.lib Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PcService.pdb" /machine:IX86 /out:"..\bin\PcService.exe" /pdbtype:sept /opt:ref /opt:icf 
+.\Release\MainFrm.obj
+.\Release\MyGlobalFuc.obj
+.\Release\MyServicesDlg.obj
+.\Release\MyServicesView.obj
+.\Release\PcService.obj
+.\Release\stdafx.obj
+.\Release\PcService.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8553.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+MainFrm.cpp
+MyGlobalFuc.cpp
+MyServicesDlg.cpp
+MyServicesView.cpp
+PcService.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcStat - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcStat.res" /d "NDEBUG" /d "_AFXDLL" "E:\Projects\PcShare\PcStat\PcStat.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8D02.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PcStat.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcStat\Lzw.cpp"
+"E:\Projects\PcShare\PcStat\PcStat.cpp"
+"E:\Projects\PcShare\PcStat\ServiceManager.cpp"
+"E:\Projects\PcShare\PcStat\WjcDes.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8D02.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8D03.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PcStat.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcStat\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8D03.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/PcStat.pdb" /machine:I386 /out:"../bin/PcStat.exe"  .\Release\Lzw.obj .\Release\PcStat.obj .\Release\ServiceManager.obj .\Release\StdAfx.obj .\Release\WjcDes.obj .\Release\PcStat.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Lzw.cpp
+PcStat.cpp
+ServiceManager.cpp
+WjcDes.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcTlnt - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcTlnt.res" /d "NDEBUG" /d "_AFXDLL" "E:\Projects\PcShare\PcTlnt\PcTlnt.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP95DA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PcTlnt.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcTlnt\MySocketDlg.cpp"
+"E:\Projects\PcShare\PcTlnt\PcTlnt.cpp"
+"E:\Projects\PcShare\PcTlnt\ProtocolRx.cpp"
+"E:\Projects\PcShare\PcTlnt\SocketDx.cpp"
+"E:\Projects\PcShare\PcTlnt\SocketRx.cpp"
+"E:\Projects\PcShare\PcTlnt\SocketTx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP95DA.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP95DB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PcTlnt.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\PcShare\PcTlnt\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP95DB.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP95DC.tmp" with contents
+[
+Ws2_32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/PcTlnt.pdb" /machine:I386 /out:"../bin/PcTlnt.exe" 
+.\Release\MySocketDlg.obj
+.\Release\PcTlnt.obj
+.\Release\ProtocolRx.obj
+.\Release\SocketDx.obj
+.\Release\SocketRx.obj
+.\Release\SocketTx.obj
+.\Release\StdAfx.obj
+.\Release\PcTlnt.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP95DC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MySocketDlg.cpp
+PcTlnt.cpp
+ProtocolRx.cpp
+SocketDx.cpp
+SocketRx.cpp
+SocketTx.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: PcShare - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo".\Release/PcShare.res" /d "NDEBUG" "E:\Projects\PcShare\PcShare\PcShare.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0B5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR".\Release/" /Fp".\Release/PcShare.pch" /Yu"stdafx.h" /Fo".\Release/" /GF /c 
+"E:\Projects\PcShare\PcShare\DirDialog.cpp"
+"E:\Projects\PcShare\PcShare\ListViewCtrlEx.cpp"
+"E:\Projects\PcShare\PcShare\Lzw.cpp"
+"E:\Projects\PcShare\PcShare\MainFrm.cpp"
+"E:\Projects\PcShare\PcShare\MyClientInfoView.cpp"
+"E:\Projects\PcShare\PcShare\MyClientMainView.cpp"
+"E:\Projects\PcShare\PcShare\MyClientProxy.cpp"
+"E:\Projects\PcShare\PcShare\MyClientTitleDlg.cpp"
+"E:\Projects\PcShare\PcShare\MyCreateClientDlg.cpp"
+"E:\Projects\PcShare\PcShare\MyEventView.cpp"
+"E:\Projects\PcShare\PcShare\MyGlobalFuc.cpp"
+"E:\Projects\PcShare\PcShare\MyHtmlView.cpp"
+"E:\Projects\PcShare\PcShare\MyLink.cpp"
+"E:\Projects\PcShare\PcShare\MySetupDlg.cpp"
+"E:\Projects\PcShare\PcShare\MyThreadFunc.cpp"
+"E:\Projects\PcShare\PcShare\MyTrace.cpp"
+"E:\Projects\PcShare\PcShare\NewMenu.cpp"
+"E:\Projects\PcShare\PcShare\PcShare.cpp"
+"E:\Projects\PcShare\PcShare\WjcDes.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0B5.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0B6.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR".\Release/" /Fp".\Release/PcShare.pch" /Yc"stdafx.h" /Fo".\Release/" /GF /c 
+"E:\Projects\PcShare\PcShare\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0B6.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0B7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib Msimg32.lib Wininet.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/PcShare.pdb" /machine:IX86 /out:"..\bin\PcShare.exe" /pdbtype:sept 
+.\Release\DirDialog.obj
+.\Release\ListViewCtrlEx.obj
+.\Release\Lzw.obj
+.\Release\MainFrm.obj
+.\Release\MyClientInfoView.obj
+.\Release\MyClientMainView.obj
+.\Release\MyClientProxy.obj
+.\Release\MyClientTitleDlg.obj
+.\Release\MyCreateClientDlg.obj
+.\Release\MyEventView.obj
+.\Release\MyGlobalFuc.obj
+.\Release\MyHtmlView.obj
+.\Release\MyLink.obj
+.\Release\MySetupDlg.obj
+.\Release\MyThreadFunc.obj
+.\Release\MyTrace.obj
+.\Release\NewMenu.obj
+.\Release\PcShare.obj
+.\Release\StdAfx.obj
+.\Release\WjcDes.obj
+.\Release\PcShare.res
+\Projects\PcShare\PcClient\Release\PcClient.lib
+\Projects\PcShare\PcCortr\Release\PcCortr.lib
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0B7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+DirDialog.cpp
+ListViewCtrlEx.cpp
+Lzw.cpp
+MainFrm.cpp
+MyClientInfoView.cpp
+MyClientMainView.cpp
+MyClientProxy.cpp
+MyClientTitleDlg.cpp
+MyCreateClientDlg.cpp
+E:\Projects\PcShare\PcShare\MyCreateClientDlg.cpp(208) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MyEventView.cpp
+MyGlobalFuc.cpp
+MyHtmlView.cpp
+MyLink.cpp
+MySetupDlg.cpp
+MyThreadFunc.cpp
+MyTrace.cpp
+NewMenu.cpp
+PcShare.cpp
+WjcDes.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB66A.tmp" with contents
+[
+/nologo /o".\Release/PcShare.bsc" 
+.\Release\StdAfx.sbr
+.\Release\DirDialog.sbr
+.\Release\ListViewCtrlEx.sbr
+.\Release\Lzw.sbr
+.\Release\MainFrm.sbr
+.\Release\MyClientInfoView.sbr
+.\Release\MyClientMainView.sbr
+.\Release\MyClientProxy.sbr
+.\Release\MyClientTitleDlg.sbr
+.\Release\MyCreateClientDlg.sbr
+.\Release\MyEventView.sbr
+.\Release\MyGlobalFuc.sbr
+.\Release\MyHtmlView.sbr
+.\Release\MyLink.sbr
+.\Release\MySetupDlg.sbr
+.\Release\MyThreadFunc.sbr
+.\Release\MyTrace.sbr
+.\Release\NewMenu.sbr
+.\Release\PcShare.sbr
+.\Release\WjcDes.sbr]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB66A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PcShare.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

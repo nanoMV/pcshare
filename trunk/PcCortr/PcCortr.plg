@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PcCortr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcCortr.res" /d "NDEBUG" /d "_AFXDLL" "E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\PcCortr.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/PcCortr.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\MyAdminTrans.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\MyFrameTrans.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\MyHttpBase.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\MyHttpPipeBase.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\MyKeyMonTrans.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\MyMainTrans.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\MyMulitTrans.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\MyTlntTrans.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\PcCortr.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\XGina.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP4.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/PcCortr.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcCortr\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP5.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+Wininet.lib shlwapi.lib ZLIB.LIB Ws2_32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/PcCortr.pdb" /machine:I386 /def:".\PcCortr.def" /out:"../Bin/PcCortr.dll" /implib:"Release/PcCortr.lib" 
+".\Release\MyAdminTrans.obj"
+".\Release\MyFrameTrans.obj"
+".\Release\MyHttpBase.obj"
+".\Release\MyHttpPipeBase.obj"
+".\Release\MyKeyMonTrans.obj"
+".\Release\MyMainTrans.obj"
+".\Release\MyMulitTrans.obj"
+".\Release\MyTlntTrans.obj"
+".\Release\PcCortr.obj"
+".\Release\StdAfx.obj"
+".\Release\XGina.obj"
+".\Release\PcCortr.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyAdminTrans.cpp
+MyFrameTrans.cpp
+MyHttpBase.cpp
+MyHttpPipeBase.cpp
+MyKeyMonTrans.cpp
+MyMainTrans.cpp
+MyMulitTrans.cpp
+MyTlntTrans.cpp
+PcCortr.cpp
+XGina.cpp
+Generating Code...
+Linking...
+   Creating library Release/PcCortr.lib and object Release/PcCortr.exp
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+/nologo /o"Release/PcCortr.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\MyAdminTrans.sbr"
+".\Release\MyFrameTrans.sbr"
+".\Release\MyHttpBase.sbr"
+".\Release\MyHttpPipeBase.sbr"
+".\Release\MyKeyMonTrans.sbr"
+".\Release\MyMainTrans.sbr"
+".\Release\MyMulitTrans.sbr"
+".\Release\MyTlntTrans.sbr"
+".\Release\PcCortr.sbr"
+".\Release\XGina.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPA.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PcCortr.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
