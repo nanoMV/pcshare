@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PcTlnt - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcTlnt.res" /d "NDEBUG" /d "_AFXDLL" "E:\vc资料\PCSHARE VIP 2005源码chen\PcTlnt\PcTlnt.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PcTlnt.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcTlnt\MySocketDlg.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcTlnt\PcTlnt.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcTlnt\ProtocolRx.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcTlnt\SocketDx.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcTlnt\SocketRx.cpp"
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcTlnt\SocketTx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1C.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PcTlnt.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\vc资料\PCSHARE VIP 2005源码chen\PcTlnt\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+Ws2_32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/PcTlnt.pdb" /machine:I386 /out:"../bin/PcTlnt.exe" 
+".\Release\MySocketDlg.obj"
+".\Release\PcTlnt.obj"
+".\Release\ProtocolRx.obj"
+".\Release\SocketDx.obj"
+".\Release\SocketRx.obj"
+".\Release\SocketTx.obj"
+".\Release\StdAfx.obj"
+".\Release\PcTlnt.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MySocketDlg.cpp
+PcTlnt.cpp
+ProtocolRx.cpp
+SocketDx.cpp
+SocketRx.cpp
+SocketTx.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PcTlnt.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

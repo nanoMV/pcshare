@@ -1,0 +1,16 @@
+<?xml version=¡±1.0¡å encoding=¡±UTF-8¡å standalone=¡±yes¡±?>
+<assembly xmlns=¡±urn:schemas-microsoft-com:asm.v1¡å manifestVersion=¡±1.0¡å>
+<assemblyIdentity
+version=¡±1.0.0.0¡å
+processorArchitecture=¡±X86¡å
+name=¡±test.exe.manifest¡±
+type=¡±win32¡å
+/>
+<trustInfo xmlns=¡±urn:schemas-microsoft-com:asm.v3¡å>
+<security>
+<requestedPrivileges>
+<requestedExecutionLevel level=¡±requireAdministrator¡± uiAccess=¡±false¡±/>
+</requestedPrivileges>
+</security>
+</trustInfo>
+</assembly>

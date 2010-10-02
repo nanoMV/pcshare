@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PcStat - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PcStat.res" /d "NDEBUG" /d "_AFXDLL" "E:\MyProjects\PcShare\PcStat\PcStat.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP144.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PcStat.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\MyProjects\PcShare\PcStat\Lzw.cpp"
+"E:\MyProjects\PcShare\PcStat\PcStat.cpp"
+"E:\MyProjects\PcShare\PcStat\ServiceManager.cpp"
+"E:\MyProjects\PcShare\PcStat\WjcDes.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP144.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP145.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PcStat.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\MyProjects\PcShare\PcStat\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP145.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/PcStat.pdb" /machine:I386 /out:"../bin/PcStat.exe"  .\Release\Lzw.obj .\Release\PcStat.obj .\Release\ServiceManager.obj .\Release\StdAfx.obj .\Release\WjcDes.obj .\Release\PcStat.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Lzw.cpp
+PcStat.cpp
+ServiceManager.cpp
+WjcDes.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PcStat.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
